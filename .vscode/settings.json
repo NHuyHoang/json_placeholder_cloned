@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "env/bin/python",
+    "python.linting.pylintPath": "env/bin/pylint",
+    "python.linting.enabled": true,
+    "git.ignoreLimitWarning": true,
+    "python.linting.pylintEnabled": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.pyc": true,
+        "**/__pycache__":false,
+    },
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
+    "files.autoSave": "afterDelay"
+}
